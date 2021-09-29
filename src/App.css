@@ -1,0 +1,109 @@
+body {
+    background-image: url('./imgs/alpy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headerDiv {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.navbarDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(168, 168, 168, 0.35);
+}
+
+.navButtonContainer {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    width: 50%;
+}
+
+.navButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100px;
+}
+
+.navButtonDiv:hover {
+    background-color: lightgray;
+}
+
+.emptyNav {
+    height: 4vh;
+    width: 25%;
+}
+
+.contentDiv {
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+
+.buttonDiv {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.buttonDiv:hover {
+    background-color: blue;
+}
+
+/* For the smallest of devices */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* For small devices */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* For medium devices */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* For large devices */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: yellow;
+    }
+}
