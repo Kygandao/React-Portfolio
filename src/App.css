@@ -49,7 +49,7 @@ body {
 }
 
 .contentDiv {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216, .9);
     display: flex;
     flex-direction: column;
     align-items: center;
