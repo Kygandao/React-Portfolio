@@ -31,7 +31,7 @@ const ImageSlider = ({ slides }) => {
                         <img src={slide.image} alt='Biking' className='image'/>
                         )}
                         <div className='imageText'>
-                            <h5>Centered text over image</h5>
+                            <h5>Centered text over image CSS. to be changed to React</h5>
                         </div>
                     </div>
                     
