@@ -53,7 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
 }
 
@@ -79,6 +79,85 @@ body {
 .buttonDiv:hover {
     background-color: blue;
 }
+
+.slider {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 500px;
+    width: 285px;
+    border-radius: 10px;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+   position: relative;
+   opacity: 0;
+   transition-duration: 1s ease;
+   text-align: center;
+}
+
+.slide.active {
+    position: relative;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08)
+}
+
+.slide.active:hover {
+    opacity: 75%;
+}
+
+.imageText {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 10;
+    height: 500px;
+    width: 285px;
+    opacity: 0;
+}
+
+.imageText:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    color: black;
+}
+
+
+
 
 /* For the smallest of devices */
 @media only screen and (max-width: 600px) {
