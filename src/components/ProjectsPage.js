@@ -5,7 +5,7 @@ import { sliderData } from './data/sliderData';
 
 const ProjectsPage = () => {
     return (
-        <div>
+        <div className='projectsPage'>
             <div className='emptyDiv'>
                 
             </div>
