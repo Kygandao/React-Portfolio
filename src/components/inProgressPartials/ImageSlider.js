@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { sliderData } from './sliderDataTEST';
+import { sliderData } from './sliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({ slides }) => {
@@ -28,10 +28,10 @@ const ImageSlider = ({ slides }) => {
                 return (
                     <div className={index === currentImg ? 'slide active' : 'slide'} key={index}>
                         {index === currentImg && (
-                        <img src={slide.image} alt='Biking' className='image'/>
+                        <img src={slide.image} alt='Project Screenshot' className='image'/>
                         )}
                         <div className='imageText'>
-                            <h5>Centered text over image CSS. to be changed to React</h5>
+                            <h5>Text to be customized for each screenshot</h5>
                         </div>
                     </div>
                     
@@ -43,3 +43,4 @@ const ImageSlider = ({ slides }) => {
 }
 
 export default ImageSlider
+

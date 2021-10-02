@@ -1,19 +1,34 @@
-import './App.css';
-
-import HelloDiv from './components/HelloDiv'
-import NavbarDiv from './components/Navbar';
-import ContentDiv from './components/ContentDiv';
-import FooterDiv from './components/FooterDiv';
+import './App.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Homepage from './components/Homepage'
+import ProjectsPage from './components/ProjectsPage'
+import ContactPage from './components/ContactPage'
 
 function App() {
   return (
-    <div>
-    <HelloDiv/>
-    <NavbarDiv/>
-    <ContentDiv/>
-    <FooterDiv/>
-    </div>
-  
+    <Router>
+      
+      <div className='header'>
+        
+      </div>
+      <div>
+        <Navbar/>
+      </div>
+      <div className='content'>
+        <Switch>
+          <Route path='/Home'>
+            <Homepage/>
+          </Route>
+          <Route path='/Projects'>
+            <ProjectsPage/>
+          </Route>
+          <Route path='/Contact'>
+            <ContactPage/>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   )
 }
 export default App;

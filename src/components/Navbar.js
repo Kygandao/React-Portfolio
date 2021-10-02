@@ -1,33 +1,23 @@
-import React from "react";
+import React from 'react';
 
-const handlePageChange = () => {
-    console.log('clicked button')
-}
-
-function Navbar() {
+const Navbar = () => {
     return (
-        <div className='navbarDiv'>
-            <div className='emptyNav'>
+        <div className='navbar'>
+            <div className='leftNav'>
 
             </div>
-            <div className='navButtonContainer'>
-                <div className='navButtonDiv' onClick={handlePageChange}>
-                    <p>Home</p>
-                </div>
-                <div className='navButtonDiv' onClick={handlePageChange}>
-                    <p>About</p>
-                </div>
-                <div className='navButtonDiv' onClick={handlePageChange}>
-                    <p>Projects</p>
-                </div>
-                <div className='navButtonDiv' onClick={handlePageChange}>
-                    <p>Contact</p>
+            <div className='middleNav'>
+                <div className='links'>
+                    <a href='/Home'>Home</a>
+                    <a href='/Projects'>Projects</a>
+                    <a href='/Contact'>Contact</a>
                 </div>
             </div>
-            <div className='emptyNav'>
+            <div className='rightNav'>
 
             </div>
         </div>
     )
 }
-export default Navbar;
+
+export default Navbar
