@@ -30,9 +30,6 @@ const ImageSlider = ({ slides }) => {
                         {index === currentImg && (
                         <img src={slide.image} alt='Project Screenshot' className='image'/>
                         )}
-                        <div className='imageText'>
-                            <h5>Text to be customized for each screenshot</h5>
-                        </div>
                     </div>
                     
                 ) 

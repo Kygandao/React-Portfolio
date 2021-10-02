@@ -180,8 +180,8 @@ body {
 }
 
 .image {
-    height: 250px;
-    width: 400px;
+    height: 100px;
+    width: 200px;
     border-radius: 10px;
 }
 
@@ -225,24 +225,6 @@ body {
     opacity: 75%;
 }
 
-.imageText {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
-    font-weight: bold;
-    z-index: 10;
-    height: 250px;
-    width: 400px;
-    opacity: 0;
-}
-
-.imageText:hover {
-    opacity: 1;
-    transition-duration: 1s;
-    color: black;
+@media screen and (min-width: 600px) {
+    
 }
