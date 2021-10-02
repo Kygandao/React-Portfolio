@@ -13,13 +13,15 @@ const sendEmail = (e) => {
         ).then(res => {
             console.log(res)
         })
+        .then(alert('Your message has been sent!'))
+        .then(e.target.reset())
         .catch(err => {console.log(err)});
 }
 
 const Emailer = () => {
     return (
         <div className='emailDiv'>
-            <h2>Contact Me</h2>
+            <h3>Contact Form</h3>
             <form className='emailForm' onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type='text' name='name'/>

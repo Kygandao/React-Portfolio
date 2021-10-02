@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: black;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -119,6 +120,20 @@ body {
     text-align: center;
 }
 
+.contactBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.contactBody p {
+    padding: 100px;
+}
+
 .emailDiv {
     display: flex;
     flex-direction: column;
@@ -131,6 +146,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%
+}
+
+.projectContentDiv p {
+    padding: 100px;
 }
 
 .footerDiv {
@@ -159,7 +178,7 @@ body {
 .rightArrow {
     position: absolute;
     top: 50%;
-    right: -70px;
+    right: -50px;
     font-size: 2rem;
     color: white;
     z-index: 10;
@@ -170,7 +189,7 @@ body {
 .leftArrow {
     position: absolute;
     top: 50%;
-    left: -70px;
+    left: -50px;
     font-size: 2rem;
     color: white;
     z-index: 10;
