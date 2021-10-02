@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { sliderData } from './sliderData';
+import { sliderData } from '../data/sliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({ slides }) => {

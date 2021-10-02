@@ -1,6 +1,6 @@
 import React from 'react'
-import ImageSlider from './inProgressPartials/ImageSlider'
-import { sliderData } from './inProgressPartials/sliderData';
+import ImageSlider from './partials/ImageSlider'
+import { sliderData } from './data/sliderData';
 
 
 const ProjectsPage = () => {
