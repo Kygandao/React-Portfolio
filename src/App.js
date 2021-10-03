@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/partials/Navbar';
+import Footer from './components/partials/Footer'
 import Homepage from './components/Homepage'
 import ProjectsPage from './components/ProjectsPage'
 import ContactPage from './components/ContactPage'
@@ -27,6 +28,9 @@ function App() {
             <ContactPage/>
           </Route>
         </Switch>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </Router>
   )

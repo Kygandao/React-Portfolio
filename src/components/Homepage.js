@@ -4,7 +4,7 @@ const Homepage = () => {
     return (
         <div>
             <div className='headerDiv'>
-                <h1>Hello</h1>
+                <h1 className='greeting'>Hello</h1>
             </div>
             <div className='homepageContentDiv'>
                 <div className='homeLeft'>

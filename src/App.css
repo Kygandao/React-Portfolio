@@ -10,6 +10,10 @@ body {
     animation: fadeIn ease 1.5s
 }
 
+.greeting {
+    animation: fadeIn ease 3s
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -129,7 +133,9 @@ body {
     align-items: center;
     text-align: center;
 }
-
+.contactDiv {
+    height: 100vh;
+}
 .contactBody {
     display: flex;
     flex-direction: column;
@@ -160,15 +166,6 @@ body {
 
 .projectContentDiv p {
     padding: 20px;
-}
-
-.footerDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    width: 100%;
-    color: white;
 }
 
 .slider {
@@ -223,6 +220,31 @@ body {
 
 .slide.active:hover {
     opacity: 75%;
+}
+
+.icon {
+    height: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.icon:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+.footerText {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    color: white;
+    background-color: rgb(168, 168, 168, 0.35);
 }
 
 @media screen and (min-width: 600px) {
