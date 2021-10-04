@@ -99,10 +99,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 105vh;
+    height: 65vh;
     width: 100%;
     color: white;
 }
+
+.projectTitle {
+    padding-top: 30px;
+}
+
+.projectDescriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.projectDescriptions p {
+    padding: 20px;
+}
+
+.projectContentDiv p {
+    padding: 20px;
+}
+
 
 .homepageContentDiv {
     display: flex;
@@ -114,7 +136,7 @@ body {
     height: 90vh;
 }
 .homepageContentDiv h2{
-    padding: 30px;
+    padding: 20px;
 }
 
 .homeMiddle {
@@ -162,10 +184,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%
-}
-
-.projectContentDiv p {
-    padding: 20px;
 }
 
 .slider {
