@@ -115,7 +115,8 @@ body {
     color: white;
     height: 165vh;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .projectDescriptions p {
@@ -193,7 +194,8 @@ body {
 .emailForm {
     display: flex;
     flex-direction: column;
-    width: 50%
+    width: 50%;
+    padding-bottom: 45px;
 }
 
 .slider {
