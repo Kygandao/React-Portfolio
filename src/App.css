@@ -271,6 +271,9 @@ body {
     width: 100%;
     color: white;
     background-color: rgb(168, 168, 168, 0.35);
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 @media screen and (min-width: 600px) {
