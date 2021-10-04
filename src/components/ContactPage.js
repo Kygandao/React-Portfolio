@@ -12,7 +12,7 @@ const ContactPage = () => {
                 <h2>Contact Me</h2>
                 <p>
                 If you are interested in the work that I have done, have any questions about my work, or would like to work
-                together on a different project, feel free to reach out to me on these various sites.
+                together on a different project, feel free to reach out to me!
                 </p>
             </div>
             <div className='contactFormDiv'>

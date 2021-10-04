@@ -35,7 +35,7 @@ const Emailer = () => {
                 <input type='submit' value='Send'/>
             </form>
             <div>
-                Open to Work!
+                
             </div>
         </div>
     )
