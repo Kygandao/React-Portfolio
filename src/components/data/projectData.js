@@ -15,24 +15,24 @@ export const project1Data = [
 
 export const project2Data = [
     {
-        image: ''
+        image: 'https://i.ibb.co/tbVVWPx/Note1.png'
     },
     {
-        image: ''
+        image: 'https://i.ibb.co/HDCqR0n/Note2.png'
     },
     {
-        image: ''
+        image: 'https://i.ibb.co/Y0cTXxJ/Note3.png'
     },
 ];
 
 export const project3Data = [
     {
-        image: ''
+        image: 'https://i.ibb.co/bKNWf8k/Weather1.png'
     },
     {
-        image: ''
+        image: 'https://i.ibb.co/3YkwFTW/Weather2.png'
     },
     {
-        image: ''
+        image: 'https://i.ibb.co/ydSD3qb/Weather3.png'
     },
 ]
