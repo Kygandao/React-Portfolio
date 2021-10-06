@@ -99,29 +99,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 75vh;
     width: 100%;
     color: white;
-    padding-bottom: 50px;
-}
-
-.projectTitle {
-    padding-top: 30px;
 }
 
 .projectDescriptions {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    height: 165vh;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.projectDescriptions p {
-    padding: 20px;
 }
 
 .projectContentDiv p {
