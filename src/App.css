@@ -211,7 +211,7 @@ body {
 .rightArrow {
     position: absolute;
     top: 25%;
-    right: 72px;
+    right: 25px;
     font-size: 2rem;
     color: white;
     z-index: 10;
@@ -222,7 +222,7 @@ body {
 .leftArrow {
     position: absolute;
     top: 25%;
-    left: 72px;
+    left: 25px;
     font-size: 2rem;
     color: white;
     z-index: 10;

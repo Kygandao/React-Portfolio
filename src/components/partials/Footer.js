@@ -12,7 +12,7 @@ function FooterDiv() {
 
                 <a href='https://www.linkedin.com/in/kygan-dao-7a1893209/' target='_blank' rel='noreferrer'> <img src={linkedinIcon} alt='LinkedIn Icon' className='icon'/></a>
 
-                <img src={instagramIcon} alt='Instagram Icon' className='icon'/>
+                <a href='https://www.instagram.com/kygandao/' target='_blank' rel='noreferrer'> <img src={instagramIcon} alt='Instagram Icon' className='icon'/></a>
             </div>
             <div className='emptyDiv'>
 

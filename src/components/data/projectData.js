@@ -1,12 +1,15 @@
 export const project1Data = [
     {
-        image: 'https://images.unsplash.com/photo-1618055731541-e90fd7c55a92?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80'
+        image: 'https://i.ibb.co/qWFWHv9/Doggo1.png'
     },
     {
-        image: 'https://images.unsplash.com/photo-1632603641400-2d408a5c458c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=431&q=80'
+        image: 'https://i.ibb.co/19qz6Z4/Doggo2.png'
     },
     {
-        image: 'https://images.unsplash.com/photo-1633300012973-e30e542c078b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80'
+        image: 'https://i.ibb.co/hWqh1x7/Doggo3.png'
+    },
+    {
+        image: 'https://i.ibb.co/DrbWrXB/Doggo4.png'
     },
 ];
 

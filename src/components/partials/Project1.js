@@ -20,6 +20,7 @@ const Project1 = ({ slides }) => {
 
     return (
         <div className='projectSlider'>
+            <div className='imgDiv'>
             <FaArrowAltCircleLeft className='leftArrow' onClick={prevImg}/>
             <FaArrowAltCircleRight className='rightArrow' onClick={nextImg}/>
             {project1Data.map((slide, index) => {
@@ -35,6 +36,7 @@ const Project1 = ({ slides }) => {
                     </div>
                 ) 
             })}
+            </div>
             <div className='projectDescriptions'>
                 <h3>Project - Doggo Finder</h3>
                 <p>Helping you in your search for your next pet!<br/>
