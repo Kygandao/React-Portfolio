@@ -107,6 +107,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+}
+
+.projectDescriptions h3 p {
+    padding: 20px;
+}
+
+.projectSlider {
+    display: flex;
+    flex-direction: column;
 }
 
 .projectContentDiv p {
@@ -184,7 +194,7 @@ body {
     padding-bottom: 45px;
 }
 
-.slider {
+.projectSlider {
     position: relative;
     height: 85vh;
     display: flex;
@@ -200,8 +210,8 @@ body {
 
 .rightArrow {
     position: absolute;
-    top: 50%;
-    right: -50px;
+    top: 25%;
+    right: 72px;
     font-size: 2rem;
     color: white;
     z-index: 10;
@@ -211,8 +221,8 @@ body {
 
 .leftArrow {
     position: absolute;
-    top: 50%;
-    left: -50px;
+    top: 25%;
+    left: 72px;
     font-size: 2rem;
     color: white;
     z-index: 10;
