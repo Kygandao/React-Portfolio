@@ -8,7 +8,7 @@
   5. [Usage](#usage)
   6. [License](#license)
   7. [Contribution Guidelines](#contributing-guidelines)
-  8.[Screenshot])#screenshot
+  8. [Screenshot])#screenshot
 
 ## Username
 kygandao
