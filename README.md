@@ -17,7 +17,7 @@ kygandao
 kygandao23@gmail.com
 
 ## Description
-This front-end deployed project is another version of my portfolio created using purely React and CSS.
+This front-end deployed project is the first version of my portfolio created using React and CSS.
 
 ## Installation
 No installations required
